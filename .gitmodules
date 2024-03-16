@@ -1,3 +1,7 @@
 [submodule "Safe-Multi-Agent-Isaac-Gym"]
     path = python/Safe-Multi-Agent-Isaac-Gym
     url = https://github.com/yanoyoshiki/COPA-Multi-Agent-Isaac-Gym.git
+
+[submodule "DexterousHands"]
+    path = python/DexterousHands
+    url = https://github.com/yanoyoshiki/DexterousHands.git
