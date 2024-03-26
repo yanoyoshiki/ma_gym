@@ -5,7 +5,7 @@ set -u
 if [ $# -eq 0 ]
 then
     echo "running docker without display"
-    docker run -it --network=host --gpus=all --name=isaacgym_container isaacgym /bin/bash
+    docker run -it --rm --network=host --gpus=all --name=isaacgym_container isaacgym /bin/bash
 else
     export DISPLAY=$DISPLAY
 	echo "setting display to $DISPLAY"

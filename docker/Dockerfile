@@ -46,4 +46,5 @@ ENV PATH="/home/gymuser/.local/bin:$PATH"
 RUN cd python && pip install -q -e .
 
 ENV NVIDIA_VISIBLE_DEVICES=all NVIDIA_DRIVER_CAPABILITIES=all
+RUN pip install -e /opt/isaacgym/python/DexterousHands/.
 
